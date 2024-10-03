@@ -11,11 +11,16 @@ function App() {
     <Navbar/>
 
     </header>
-    <body className='App-body'>
-
-      <div>Holaaaa</div>
-    
-    </body>
+    <div className='App-body'>
+      <h1>
+        Holaaa
+      </h1>
+      <h1>
+        Holaaa
+      </h1><h1>
+        Holaaa
+      </h1>
+    </div>
   </div>
   );
 }
