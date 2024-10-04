@@ -5,10 +5,11 @@ import '../Styles/Projects.css';
 export const Projects = () => {
     return (
         <div>
+            {/* Titulo del apartado */}
             <h1 className='titulo'>
                 Projects
             </h1>
-
+            {/* Definicion de los cards para los proyectos realizados */}
             <div class="row row-cols-1 row-cols-md-4 custom-grid">
                 <div class="col">
                     <div class="card custom-card">

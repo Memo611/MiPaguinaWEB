@@ -14,21 +14,31 @@
 }
 
 .App-header {
-    position: fixed; /* Fija la navbar en la parte superior */
-    top: 0; /* Asegúrate de que esté en la parte superior */
-    left: 0; /* Asegúrate de que esté alineada a la izquierda */
-    width: 100%; /* Asegúrate de que ocupe todo el ancho */
-    z-index: 1000; /* Asegura que esté sobre otros elementos */
-    background-color: #000000; /* Color de fondo de la navbar */
-    color: white; /* Color del texto de la navbar */
-    display: flex; /* Flex para centrar elementos si es necesario */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente si es necesario */
-    height: 70px; /* Altura de la navbar, ajusta según necesites */
+    position: fixed;
+    /* Fija la navbar en la parte superior */
+    top: 0;
+    /* Asegúrate de que esté en la parte superior */
+    left: 0;
+    /* Asegúrate de que esté alineada a la izquierda */
+    width: 100%;
+    /* Asegúrate de que ocupe todo el ancho */
+    z-index: 1000;
+    /* Asegura que esté sobre otros elementos */
+    background-color: #000000;
+    /* Color de fondo de la navbar */
+    color: white;
+    /* Color del texto de la navbar */
+    display: flex;
+    /* Flex para centrar elementos si es necesario */
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente si es necesario */
+    height: 70px;
+    /* Altura de la navbar, ajusta según necesites */
 }
 
 .App-body {
-    background-color: #1a0000;
     margin-top: 70px;
     width: 100%;
     height: 100vh;
@@ -36,33 +46,69 @@
     position: relative;
     z-index: 1;
     text-align: center;
-    position: relative;
-    z-index: 1;
-    text-align: center;
+    overflow: scroll;
+    /* Permitir el desplazamiento */
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* Internet Explorer y Edge */
 }
 
-.navbar{
-    background-color: #990000;
-    
-    position: fixed; /* Fija la navbar */
-    top: 0; /* Posiciona en la parte superior */
-    left: 0; /* Posiciona en el lado izquierdo */
-    width: 100%; /* Asegúrate de que ocupe todo el ancho */
-    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+body::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari y Opera */
 }
+
+/* Fondo */
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    /* Envía el fondo detrás del contenido */
+    background: radial-gradient(circle at 30% 30%, rgba(229, 77, 77, 0.8), rgba(42, 0, 0, 0.9) 40%),
+        radial-gradient(circle at 70% 50%, rgba(255, 104, 104, 0.5), rgba(42, 0, 0, 0.8) 50%),
+        radial-gradient(circle at 50% 80%, rgba(42, 0, 0, 0.8), rgba(0, 0, 0, 1) 60%);
+    background-color: #0b120c;
+    background-size: cover;
+    filter: blur(8px);
+    /* Desenfoque aplicado solo al fondo */
+}
+
+
+.navbar {
+    background-color: #990000;
+
+    position: fixed;
+    /* Fija la navbar */
+    top: 0;
+    /* Posiciona en la parte superior */
+    left: 0;
+    /* Posiciona en el lado izquierdo */
+    width: 100%;
+    /* Asegúra de que ocupe todo el ancho */
+    z-index: 1000;
+    /* Asegura que esté por encima de otros elementos */
+}
+
 .navbar .nav-link {
-    color: rgb(255, 255, 255); /* Cambia el color de los enlaces */
+    color: rgb(255, 255, 255);
+    /* Cambia el color de los enlaces */
 }
 
 .card {
-    background-color: #313131; 
-    
+    background-color: #313131;
+
 }
 
 h1 {
-    color: #FF3D3D; /* Rojo Principal */
+    color: #FF3D3D;
+    /* Rojo Principal */
 }
 
 .link {
-    color: #008080; /* Verde Azulado para enlaces */
+    color: #008080;
+    /* Verde Azulado para enlaces */
 }

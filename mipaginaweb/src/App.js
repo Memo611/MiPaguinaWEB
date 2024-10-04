@@ -12,12 +12,13 @@ import { Contact } from './Components/Contact.js';
 function App() {
   return (
     <div className="App">
+      <div className='background'></div>
       <div className='App-body'>
         <Navbar />
-        <Abaout/>     
-        <Projects/>
-        <Educations/>
+        <Abaout/>   
+        <Educations/>  
         <Skills/>
+        <Projects/>     
         <Contact/>
       </div>
     </div>

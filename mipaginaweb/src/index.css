@@ -9,7 +9,7 @@ body {
   /* Gris Claro */
   color: #212121;
   /* Negro */
-
+  overflow: hidden; /* Evita la barra de scroll visible */
 }
 
 code {
