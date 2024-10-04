@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../Constants/logo.svg'
+
 export const Navbar = () => {
 
     return (
