@@ -7,6 +7,21 @@ const Abaout = () => {
         <div>
             <h1>Bienvenido a mi pagina web</h1>
             <p>Soy Guillermo Garcia Desarrollador Web</p>
+            <p>Soy Guillermo Garcia Desarrollador Web</p>
+            <p>Soy Guillermo Garcia Desarrollador Web</p>
+            <p>Soy Guillermo Garcia Desarrollador Web</p>
+            <p>Soy Guillermo Garcia Desarrollador Web</p>
+            <p>Soy Guillermo Garcia Desarrollador Web</p>
+            <p>Soy Guillermo Garcia Desarrollador Web</p>
+            <p>Soy Guillermo Garcia Desarrollador Web</p>
+            <p>Soy Guillermo Garcia Desarrollador Web</p>
+            <p>Soy Guillermo Garcia Desarrollador Web</p>
+            <p>Soy Guillermo Garcia Desarrollador Web</p>
+            <p>Soy Guillermo Garcia Desarrollador Web</p>
+            
+            
+            
+
         </div>
     )
 }

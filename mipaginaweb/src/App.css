@@ -28,7 +28,7 @@
 }
 
 .App-body {
-    background-color: #282c34;
+    background-color: #1a0000;
     margin-top: 70px;
     width: 100%;
     height: 100vh;
@@ -42,7 +42,7 @@
 }
 
 .navbar{
-    background-color: #9C2A2A;
+    background-color: #990000;
     
     position: fixed; /* Fija la navbar */
     top: 0; /* Posiciona en la parte superior */

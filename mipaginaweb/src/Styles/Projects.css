@@ -1,0 +1,20 @@
+.custom-card{
+    background-color: #ff3b3b;
+    color: aliceblue;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+    padding: 5px;
+}
+.custom-grid{
+ margin: 10px;
+}
+
+.card-img-top {
+    width: 100%; /* O un valor fijo como 200px */
+    height: 200px; /* O un valor fijo como 200px */
+    object-fit: cover; /* Esto asegura que la imagen mantenga su relación de aspecto */
+}
+
+.titulo{
+    color: #ff8686; 
+}

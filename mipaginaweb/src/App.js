@@ -12,11 +12,8 @@ import { Contact } from './Components/Contact.js';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Navbar />
-
-      </header>
       <div className='App-body'>
+        <Navbar />
         <Abaout/>     
         <Projects/>
         <Educations/>
