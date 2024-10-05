@@ -5,6 +5,7 @@ import html from '../Constants/html.svg';
 import css from '../Constants/css.svg';
 import java from '../Constants/java.svg';
 import react from '../Constants/react.svg';
+import C from '../Constants/C.svg';
 import '../Styles/Skills.css';
 export const Skills = () => {
   return (
@@ -56,20 +57,13 @@ export const Skills = () => {
         </div>
         <div class="col">
           <div class="card custom-card-skills">
-            <img src={logo} class="card-img-top-skills" alt="..." />
+            <img src={C} class="card-img-top-skills" alt="..." />
             <div class="card-body">
 
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card custom-card-skills">
-            <img src={logo} class="card-img-top-skills" alt="..." />
-            <div class="card-body">
-
-            </div>
-          </div>
-        </div>
+        
       </div>
     </div>
   )
