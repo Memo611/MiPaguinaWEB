@@ -1,0 +1,30 @@
+.custom-card-skills {
+    background-color: #ff3b3b;
+    color: aliceblue;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+    padding: 5px;
+    margin: 10px;
+    max-width: 100px;
+    max-height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.custom-grid-skills {
+    margin: 10px;
+    flex-grow: 1;
+    flex-basis: 200;
+}
+
+.card-img-top-skills {
+    width: 100%;
+    /* O un valor fijo como 200px */
+    height: 85px;
+    /* O un valor fijo como 200px */
+    object-fit: cover;
+    /* Esto asegura que la imagen mantenga su relación de aspecto */
+}
+
+.titulo {
+    color: #ff8686;
+}
