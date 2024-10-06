@@ -1,11 +1,10 @@
 import React from 'react'
-import logo from '../Constants/logo.svg';
-import js from '../Constants/js.svg';
-import html from '../Constants/html.svg';
-import css from '../Constants/css.svg';
-import java from '../Constants/java.svg';
-import react from '../Constants/react.svg';
-import C from '../Constants/C.svg';
+import js from '../Constants/Educations/js.svg';
+import html from '../Constants/Educations/html.svg';
+import css from '../Constants/Educations/css.svg';
+import java from '../Constants/Educations/java.svg';
+import react from '../Constants/Educations/react.svg';
+import C from '../Constants/Educations/C.svg';
 import '../Styles/Skills.css';
 export const Skills = () => {
   return (

@@ -1,19 +1,30 @@
-.custom-card {
+.custom-card-skills {
     background-color: #ff3b3b;
     color: aliceblue;
     border-color: rgb(255, 255, 255);
     border-width: 2px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 5px;
-}
-
-.custom-grid {
     margin: 10px;
+    max-width: 100px;
+    max-height: 100px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.card-img-top {
+.custom-grid-skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+.card-img-top-skills {
     width: 100%;
     /* O un valor fijo como 200px */
-    height: 200px;
+    height: 85px;
     /* O un valor fijo como 200px */
     object-fit: cover;
     /* Esto asegura que la imagen mantenga su relación de aspecto */

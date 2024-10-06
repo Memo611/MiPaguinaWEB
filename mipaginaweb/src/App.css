@@ -68,10 +68,11 @@ body::-webkit-scrollbar {
     height: 100vh;
     z-index: -1;
     /* Envía el fondo detrás del contenido */
-    background: radial-gradient(circle at 30% 30%, rgba(229, 77, 77, 0.8), rgba(42, 0, 0, 0.9) 40%),
-        radial-gradient(circle at 70% 50%, rgba(255, 104, 104, 0.5), rgba(42, 0, 0, 0.8) 50%),
-        radial-gradient(circle at 50% 80%, rgba(42, 0, 0, 0.8), rgba(0, 0, 0, 1) 60%);
+    background: radial-gradient(circle at 30% 30%, rgba(100, 0, 0, 0.8), rgba(15, 0, 0, 0.9) 40%),
+        radial-gradient(circle at 70% 50%, rgba(150, 0, 0, 0.5), rgba(15, 0, 0, 0.8) 50%),
+        radial-gradient(circle at 50% 80%, rgba(15, 0, 0, 0.8), rgba(0, 0, 0, 1) 60%);
     background-color: #0b120c;
+
     background-size: cover;
     filter: blur(8px);
     /* Desenfoque aplicado solo al fondo */
